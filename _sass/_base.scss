@@ -255,7 +255,7 @@ ul.task-list input[type="checkbox"] {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
   }
 
   a:hover {
@@ -1417,3 +1417,37 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.first-name {
+  color: #666666;
+  font-weight: bold;
+}
+
+.last-name {
+  color: #666666;
+}
+
+.desc-subtitle{
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: #666666;
+  margin-top: 0rem;
+}
+
+.post-header {
+  margin-bottom: 2rem; 
+}
+
+.horizontal-separator {
+  clear: both;
+  border-top: 1px solid #cccccc;
+  margin: 2rem 0;
+}
+
+.section-name {
+  font-size: 2.5rem;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
