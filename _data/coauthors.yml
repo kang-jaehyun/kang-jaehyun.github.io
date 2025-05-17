@@ -1,34 +1,32 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Adams:
+#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+Hanjung:
+  url: https://kimhanjung.github.io
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Hyolim:
+  url: https://sites.google.com/yonsei.ac.kr/hyolims
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+Meedeum:
+  url: https://chomeed.github.io
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+Seon Joo:
+  url: https://sites.google.com/site/seonjookim/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+Youngwoon:
+  url: https://youngwoon.github.io/youngwoon
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+Miran:
+  url: https://sites.google.com/view/miranheo
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+Sukjun:
+  url: https://sukjunhwang.github.io
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+Seoung Wug:
+  url: https://sites.google.com/view/seoungwugoh
+
+Jinwoo:
+  url: https://sites.google.com/view/hello-jinwoo
+
+Ho-Jin:
+  url: https://keai.kaist.ac.kr/people/professor/
