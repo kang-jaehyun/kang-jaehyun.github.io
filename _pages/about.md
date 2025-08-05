@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Graduate Student | Yonsei University | Computer Science
+subtitle: Research Engineer | RLWRLD | Yonsei University
 
 profile:
   align: right
@@ -23,6 +23,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final-semester M.S. student in Computer Science at Yonsei University, advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in the Computational Intelligence & Photography Lab ([CIPLAB](https://www.ciplab.kr)). I received my B.S. in Computer Science from Yonsei University as well.
+<!-- I am a final-semester M.S. student in Computer Science at Yonsei University, advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in the Computational Intelligence & Photography Lab ([CIPLAB](https://www.ciplab.kr)). I received my B.S. in Computer Science from Yonsei University as well.
 
-My research focuses on **Robot Learning** and **Video Understanding**, actively collaborating with [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon). Recently, I'm interested in developing robotics foundation models for generalist agents. This includes leveraging VLAs and large-scale video datasets, including egocentric videos -- to learn and utilize the priors of the world. My long-term ambition is to build embodied agents capable of adapting to novel scenes and tasks, ultimately contributing to a society where humans and robots coexist.
+My research focuses on **Robot Learning** and **Video Understanding**, actively collaborating with [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon). Recently, I'm interested in developing robotics foundation models for generalist agents. This includes leveraging VLAs and large-scale video datasets, including egocentric videos -- to learn and utilize the priors of the world. My long-term ambition is to build embodied agents capable of adapting to novel scenes and tasks, ultimately contributing to a society where humans and robots coexist. -->
+
+I am a final-semester M.S. student in Computer Science at Yonsei University, advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in the Computational Intelligence & Photography Lab ([CIPLAB](https://www.ciplab.kr)). I received my B.S. in Computer Science from Yonsei University as well. Currently, I work as a research engineer at RLWRLD.
+
+My research focuses on **Robot Learning** and **Video Understanding**. Previously, I had the fortunate opportunity to collaborate with Prof. [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon). Recently, I'm interested in developing robotics foundation models to solve complex tasks. This includes leveraging dexterous hands with VLAs and latent action from large-scale datasets to learn and utilize the priors of the world. My long-term ambition is to build a society where humans and robots coexist.
+
