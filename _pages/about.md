@@ -6,7 +6,7 @@ subtitle: Research Engineer @ RLWRLD
 
 profile:
   align: right
-  image: jaehyun_43.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -25,5 +25,4 @@ latest_posts:
 
 I am a research engineer at [RLWRLD](https://www.rlwrld.ai). I received my M.S. and B.S. in Computer Science from Yonsei University, where I was advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in [CIPLAB](https://www.ciplab.kr). I also had the fortunate opportunity to collaborate with [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon).
 
-My research focuses on **Dexterous VLA** — building vision-language-action models that enable robotic hands to perform complex manipulation tasks. I'm particularly interested in bridging human video understanding and robot action, leveraging large-scale human demonstrations to ground dexterous manipulation skills. My long-term ambition is to build a society where humans and robots coexist.
-
+My research focuses on **Dexterous VLA** — building vision-language-action models that enable robotic hands to perform complex manipulation tasks. I'm particularly interested in bridging human video understanding and robot action, leveraging large-scale human demonstrations to ground dexterous manipulation skills. Previously, my work explored video understanding and robot learning, which continues to shape my current focus on transferring knowledge from human demonstrations to robot policies at scale.
