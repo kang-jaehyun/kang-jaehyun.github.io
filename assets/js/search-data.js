@@ -400,6 +400,9 @@ ninja.data = [{
           section: "News",},{id: "news-uniskill-is-out-sparkles-check-out-our-paper-and-project-website",
           title: 'UniSkill is out! :sparkles: Check out our paper and project website.',
           description: "",
+          section: "News",},{id: "news-joined-rlwrld-as-a-research-engineer",
+          title: 'Joined RLWRLD as a Research Engineer!',
+          description: "",
           section: "News",},{id: "news-uniskill-is-accepted-to-corl-2025",
           title: 'UniSkill is accepted to CoRL 2025 !',
           description: "",
@@ -453,7 +456,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%61%65%68%79%75%6E%6B%61%6E%67@%79%6F%6E%73%65%69.%61%63.%6B%72", "_blank");
+          window.open("mailto:%6A%61%65%68%79%75%6E.%6B%61%6E%67@%72%6C%77%72%6C%64.%61%69", "_blank");
         },
       },{
         id: 'social-linkedin',
