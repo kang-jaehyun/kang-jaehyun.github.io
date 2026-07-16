@@ -23,6 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a research engineer at [RLWRLD](https://www.rlwrld.ai). I received my M.S. and B.S. in Computer Science from Yonsei University, where I was advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in [CIPLAB](https://www.ciplab.kr). I also had the fortunate opportunity to collaborate with [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon).
+I am a research engineer at [RLWRLD](https://www.rlwrld.ai). I received my M.S. and B.S. in Computer Science from Yonsei University, where I was advised by [Prof. Seon Joo Kim](https://sites.google.com/site/seonjookim/) in [CIPLAB](https://www.ciplab.kr). I also had the fortunate opportunity to collaborate with [Prof. Youngwoon Lee](https://youngwoon.github.io/youngwoon), which led to our work on learning cross-embodiment skills from human videos.
 
 My research centers on **dexterous manipulation for long-horizon tasks**. Skillful control alone is not enough to solve them: a robot must also reason about its goal and act in a context-aware way, adapting to the scene and the objects involved. This leads me to focus on designing robot intelligence across levels of abstraction, where high-level reasoning guides low-level dexterous control to solve problems that neither could handle alone.
