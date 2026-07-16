@@ -19,26 +19,49 @@
     <div class="title">{{ entry.title }}</div>
 
     <div class="author">
-      {% for author in entry.author_array %}
-        {% assign me = false %}
+      {% comment %} For very long author lists, show only the first author followed by "et al." {% endcomment %}
+      {% assign max_authors = 10 %}
+      {% assign n_authors = entry.author_array | size %}
+
+      {% if n_authors > max_authors %}
+        {% assign author = entry.author_array | first %}
         {% if author.last contains 'Kang' and author.first == 'Jaehyun' %}
-          {% assign me = true %}
-        {% endif %}
-
-        <!-- {% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %} -->
-        {% unless forloop.first %} , {% endunless %}
-
-        {% if me %}
           <em><b>{{ author.first }} {{ author.last }}</b></em>
         {% else %}
-          {% assign url = site.data.coauthors[author.first].url %}
+          {% assign coauthor = site.data.coauthors[author.first] %}
+          {% assign url = coauthor.url %}
+          {% if coauthor.last and coauthor.last != author.last %}{% assign url = false %}{% endif %}
           {% if url %}
             <a href="{{ url }}" target="_blank">{{ author.first }} {{ author.last }}</a>
           {% else %}
             {{ author.first }} {{ author.last }}
           {% endif %}
         {% endif %}
-      {% endfor %}
+        <em>et al.</em>
+
+      {% else %}
+        {% for author in entry.author_array %}
+          {% assign me = false %}
+          {% if author.last contains 'Kang' and author.first == 'Jaehyun' %}
+            {% assign me = true %}
+          {% endif %}
+
+          {% unless forloop.first %} , {% endunless %}
+
+          {% if me %}
+            <em><b>{{ author.first }} {{ author.last }}</b></em>
+          {% else %}
+            {% assign coauthor = site.data.coauthors[author.first] %}
+            {% assign url = coauthor.url %}
+            {% if coauthor.last and coauthor.last != author.last %}{% assign url = false %}{% endif %}
+            {% if url %}
+              <a href="{{ url }}" target="_blank">{{ author.first }} {{ author.last }}</a>
+            {% else %}
+              {{ author.first }} {{ author.last }}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
 
 
