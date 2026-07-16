@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [RLWRLD](https://www.rlwrld.ai) as a Research Engineer!
+Joined [RLWRLD](https://www.rlwrld.ai) as a Research Engineer.

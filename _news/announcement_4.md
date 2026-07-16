@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**UniSkill** is accepted to CoRL 2025 !
+**UniSkill** is accepted to CoRL 2025.
