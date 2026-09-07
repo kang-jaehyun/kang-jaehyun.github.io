@@ -88,6 +88,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.links_coming_soon == 'true' %}
+        [<span class="text-muted">Coming soon</span>]
+      {% endif %}
       {% if entry.arxiv %}
         [<a class="pub-link" href="https://arxiv.org/abs/{{ entry.arxiv }}">Paper</a>]
       {% endif %}
